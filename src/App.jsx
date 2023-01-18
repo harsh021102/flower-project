@@ -17,7 +17,7 @@ function App() {
   }
   return (
     <div className="h-screen flex justify-center items-center bg-gray-300">
-      <div className="h-11/12 sm:h-full w-full sm:w-1/2 flex flex-col justify-center items-center">
+      <div className="h-full py-8 sm:h-full w-full sm:w-1/2 flex flex-col justify-center items-center bg-green-300">
         <img src={flower} className="rounded-lg border-2 border-black justify-center items-center w-8/12" alt="flower"/>
         <div className='w-full h-full flex'>
           <div className='h-full w-1/2 flex justify-center items-center'>
